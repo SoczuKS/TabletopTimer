@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="start_game">Graj</string>
+    <string name="player">Gracz</string>
+    <string name="too_few_players">Zbyt mało graczy</string>
+    <string name="color">Wybierz kolor</string>
+    <string name="confirm">Potwierdź</string>
+    <string name="cancel">Anuluj</string>
+    <string name="title_activity_timer">Gra</string>
+    <string name="finish">Zakończ</string>
+    <string name="click_to_start">Naciśnij, aby zacząć</string>
+</resources>
