@@ -8,15 +8,16 @@
     tools:context=".MainActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout1"
+        android:id="@+id/player_layout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
         <EditText
-            android:id="@+id/playerName1"
+            android:id="@+id/player_name1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autofillHints="name"
@@ -28,29 +29,32 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
-            android:id="@+id/playerColor1"
-            android:layout_width="150dp"
+            android:id="@+id/player_color1"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:text="@string/color"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName1"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name1"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName1"
-            app:layout_constraintTop_toTopOf="@+id/playerName1"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name1"
+            app:layout_constraintTop_toTopOf="@+id/player_name1"/>
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout2"
+        android:id="@+id/player_layout2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout1">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout1">
+
         <EditText
-            android:id="@+id/playerName2"
+            android:id="@+id/player_name2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autofillHints="name"
@@ -62,29 +66,31 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
-            android:id="@+id/playerColor2"
-            android:layout_width="150dp"
+            android:id="@+id/player_color2"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName2"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName2"
-            app:layout_constraintTop_toTopOf="@+id/playerName2"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name2"
+            app:layout_constraintTop_toTopOf="@+id/player_name2"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout3"
+        android:id="@+id/player_layout3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout2">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout2">
+
         <EditText
-            android:id="@+id/playerName3"
+            android:id="@+id/player_name3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autofillHints="name"
@@ -96,29 +102,31 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
-            android:id="@+id/playerColor3"
-            android:layout_width="150dp"
+            android:id="@+id/player_color3"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName3"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name3"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName3"
-            app:layout_constraintTop_toTopOf="@+id/playerName3"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name3"
+            app:layout_constraintTop_toTopOf="@+id/player_name3"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout4"
+        android:id="@+id/player_layout4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout3">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout3">
+
         <EditText
-            android:id="@+id/playerName4"
+            android:id="@+id/player_name4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:autofillHints="name"
@@ -130,29 +138,31 @@
             app:layout_constraintTop_toTopOf="parent"/>
 
         <Button
-            android:id="@+id/playerColor4"
-            android:layout_width="150dp"
+            android:id="@+id/player_color4"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName4"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name4"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName4"
-            app:layout_constraintTop_toTopOf="@+id/playerName4"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name4"
+            app:layout_constraintTop_toTopOf="@+id/player_name4"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout5"
+        android:id="@+id/player_layout5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout4">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout4">
+
         <EditText
-            android:id="@+id/playerName5"
+            android:id="@+id/player_name5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -164,29 +174,31 @@
             android:autofillHints="name"/>
 
         <Button
-            android:id="@+id/playerColor5"
-            android:layout_width="150dp"
+            android:id="@+id/player_color5"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName5"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name5"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName5"
-            app:layout_constraintTop_toTopOf="@+id/playerName5"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name5"
+            app:layout_constraintTop_toTopOf="@+id/player_name5"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout6"
+        android:id="@+id/player_layout6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout5">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout5">
+
         <EditText
-            android:id="@+id/playerName6"
+            android:id="@+id/player_name6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -198,29 +210,31 @@
             android:autofillHints="name"/>
 
         <Button
-            android:id="@+id/playerColor6"
-            android:layout_width="150dp"
+            android:id="@+id/player_color6"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName6"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name6"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName6"
-            app:layout_constraintTop_toTopOf="@+id/playerName6"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name6"
+            app:layout_constraintTop_toTopOf="@+id/player_name6"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout7"
+        android:id="@+id/player_layout7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="8dp"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout6">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout6">
+
         <EditText
-            android:id="@+id/playerName7"
+            android:id="@+id/player_name7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -232,29 +246,31 @@
             android:autofillHints="name"/>
 
         <Button
-            android:id="@+id/playerColor7"
-            android:layout_width="150dp"
+            android:id="@+id/player_color7"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName7"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name7"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName7"
-            app:layout_constraintTop_toTopOf="@+id/playerName7"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name7"
+            app:layout_constraintTop_toTopOf="@+id/player_name7"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/playerLayout8"
+        android:id="@+id/player_layout8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout7">
+        app:layout_constraintTop_toBottomOf="@+id/player_layout7">
+
         <EditText
-            android:id="@+id/playerName8"
+            android:id="@+id/player_name8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -266,17 +282,18 @@
             android:autofillHints="name"/>
 
         <Button
-            android:id="@+id/playerColor8"
-            android:layout_width="150dp"
+            android:id="@+id/player_color8"
+            android:minWidth="150dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/color"
             android:backgroundTint="@color/transparent"
             android:textColor="@color/black"
             android:layout_marginStart="8dp"
-            app:layout_constraintBottom_toBottomOf="@+id/playerName8"
+            app:layout_constraintBottom_toBottomOf="@+id/player_name8"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/playerName8"
-            app:layout_constraintTop_toTopOf="@+id/playerName8"/>
+            app:layout_constraintStart_toEndOf="@+id/player_name8"
+            app:layout_constraintTop_toTopOf="@+id/player_name8"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <Button
@@ -293,5 +310,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintVertical_bias="0.25"
-        app:layout_constraintTop_toBottomOf="@+id/playerLayout8"/>
+        app:layout_constraintTop_toBottomOf="@+id/player_layout8"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -68,11 +68,11 @@ class TimerActivity : AppCompatActivity() {
     }
 
     private fun findViews() {
-        mainLayout = findViewById(R.id.mainLayout)
-        playerNameTextView = findViewById(R.id.playerName)
+        mainLayout = findViewById(R.id.main_layout)
+        playerNameTextView = findViewById(R.id.player_name)
         timerTextView = findViewById(R.id.timer)
-        finishButton = findViewById(R.id.finishButton)
-        clickableLayout = findViewById(R.id.clickableLayout)
+        finishButton = findViewById(R.id.finish_button)
+        clickableLayout = findViewById(R.id.clickable_layout)
     }
 
     private fun initMediaPlayer() {
