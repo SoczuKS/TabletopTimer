@@ -5,6 +5,9 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.view.LayoutInflater
+import android.view.Window
+import android.view.WindowInsets
+import android.view.WindowManager
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
@@ -29,7 +32,12 @@ class TimerActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
+
         setContentView(R.layout.activity_timer)
+
+        this.window.insetsController?.hide(WindowInsets.Type.statusBars())
 
         findViews()
         setClickListeners()
