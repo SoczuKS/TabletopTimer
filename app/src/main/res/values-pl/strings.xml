@@ -8,5 +8,8 @@
     <string name="cancel">Anuluj</string>
     <string name="title_activity_timer">Gra</string>
     <string name="finish">Zakończ</string>
-    <string name="click_to_start">Naciśnij, aby zacząć</string>
+    <string name="are_you_sure">Jesteś pewny?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="set_time">Czas na ruch</string>
 </resources>
