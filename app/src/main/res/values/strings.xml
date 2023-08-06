@@ -14,4 +14,8 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="set_time">Time per turn</string>
+    <string name="new_game">New game</string>
+    <string name="results">Results</string>
+    <string name="carcassonne" translatable="false">Carcassonne</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>

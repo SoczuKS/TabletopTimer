@@ -12,4 +12,6 @@
     <string name="yes">Tak</string>
     <string name="no">Nie</string>
     <string name="set_time">Czas na ruch</string>
+    <string name="new_game">Nowa gra</string>
+    <string name="results">Wyniki</string>
 </resources>

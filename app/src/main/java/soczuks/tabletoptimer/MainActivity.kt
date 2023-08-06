@@ -25,48 +25,6 @@ class MainActivity : AppCompatActivity() {
         playerColorButtons = arrayOfNulls(8)
         playerColors = arrayOfNulls(8)
 
-        playerNameEditTexts[0] = findViewById(R.id.player_name1)
-        playerNameEditTexts[1] = findViewById(R.id.player_name2)
-        playerNameEditTexts[2] = findViewById(R.id.player_name3)
-        playerNameEditTexts[3] = findViewById(R.id.player_name4)
-        playerNameEditTexts[4] = findViewById(R.id.player_name5)
-        playerNameEditTexts[5] = findViewById(R.id.player_name6)
-        playerNameEditTexts[6] = findViewById(R.id.player_name7)
-        playerNameEditTexts[7] = findViewById(R.id.player_name8)
-
-        playerColorButtons[0] = findViewById(R.id.player_color1)
-        playerColorButtons[1] = findViewById(R.id.player_color2)
-        playerColorButtons[2] = findViewById(R.id.player_color3)
-        playerColorButtons[3] = findViewById(R.id.player_color4)
-        playerColorButtons[4] = findViewById(R.id.player_color5)
-        playerColorButtons[5] = findViewById(R.id.player_color6)
-        playerColorButtons[6] = findViewById(R.id.player_color7)
-        playerColorButtons[7] = findViewById(R.id.player_color8)
-
-        findViewById<Button>(R.id.player_color1).setOnClickListener {
-            selectColor(0)
-        }
-        findViewById<Button>(R.id.player_color2).setOnClickListener {
-            selectColor(1)
-        }
-        findViewById<Button>(R.id.player_color3).setOnClickListener {
-            selectColor(2)
-        }
-        findViewById<Button>(R.id.player_color4).setOnClickListener {
-            selectColor(3)
-        }
-        findViewById<Button>(R.id.player_color5).setOnClickListener {
-            selectColor(4)
-        }
-        findViewById<Button>(R.id.player_color6).setOnClickListener {
-            selectColor(5)
-        }
-        findViewById<Button>(R.id.player_color7).setOnClickListener {
-            selectColor(6)
-        }
-        findViewById<Button>(R.id.player_color8).setOnClickListener {
-            selectColor(7)
-        }
 
         findViewById<Button>(R.id.startGameButton).setOnClickListener {
             val players = preparePlayerList()
